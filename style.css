@@ -8,6 +8,18 @@
     padding-top: 16rem;
     height: auto;
 }
+.navbar-expand-lg {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+}
+.navbar {
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
 h1 , .container h2 , .show-case h1 {
 	font-family: Century;
 }
@@ -43,9 +55,6 @@ p {
 .plofile {
 	background-color:rgba(0,36,59,1);
 }
-/*.col img {
-	width: 100%;
-}*/
 .motto-second {
 	background-color: rgba(0,36,59,1);
 	width: 100%;
@@ -61,8 +70,11 @@ p {
 	background: url(img/bg1.jpg);
 	background-size: cover;
 }
-
-
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
 body {
   margin: 0;
   padding: 0;
