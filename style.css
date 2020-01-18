@@ -1,7 +1,7 @@
 @charset="utf-8";
 
 .cover {
-	background: url(img/bg-3.jpg);
+	background: url(img/bg2.jpg);
 	background-size: cover;
     background-position: center center;
     padding-bottom: 16rem;
@@ -38,7 +38,7 @@ p {
 	color: red;
 }
 .container img {
-	width: 30%;
+	width: 50%;
 }
 .show-case li {
 	list-style-type: none;
@@ -53,7 +53,8 @@ p {
 	width: 100%;
 }
 .plofile {
-	background-color:rgba(0,36,59,1);
+	background: url(img/bg-3.jpg);
+	background-size: cover;
 }
 .motto-second {
 	background-color: rgba(0,36,59,1);
@@ -67,7 +68,7 @@ p {
 	width: 100%;
 }
 .bg-img {
-	background: url(img/bg1.jpg);
+	background: url(img/bg-15.jpg);
 	background-size: cover;
 }
 .fadein {
@@ -105,6 +106,43 @@ body {
   padding-top: 20px;
   position: relative;
   max-width: 800px;
+}
+#faq-list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+
+}
+.show-case p{
+  font-size: 15px;
+}
+
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  padding: 5px 0px;
+  text-align: center;
 }
 
 /* Begin Left Contact Page */
@@ -328,7 +366,13 @@ hr {
     height: 55px;
     line-height: 55px;
   }
-  
+
+.faq-list-item  {
+  width: 60%;
+  margin: 0 auto;
+
+ }
+ 
 }
 
 @media screen and (max-width: 410px) {
