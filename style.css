@@ -44,7 +44,7 @@ p {
 	list-style-type: none;
 }
 .skill {
-	background: url(img/bg-16.jpg);
+	background: url(img/bg-9.jpg);
     background-size: cover;
     height: auto;
  }
@@ -53,7 +53,7 @@ p {
 	width: 100%;
 }
 .plofile {
-	background: url(img/bg-17.jpg);
+	background: url(img/bg-3.jpg);
 	background-size: cover;
 }
 .motto-second {
@@ -108,7 +108,7 @@ body {
   max-width: 800px;
 }
 #faq-list {
-
+  margin: 0 auto;
   padding: 0;
   list-style: none;
 
