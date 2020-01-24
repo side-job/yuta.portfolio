@@ -4,6 +4,8 @@
 	background: url(img/bg2.jpg);
 	background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding-bottom: 16rem;
     padding-top: 16rem;
     height: auto;
@@ -46,6 +48,8 @@ p {
 .skill {
 	background: url(img/bg-9.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: auto;
  }
 .motto {
@@ -55,6 +59,8 @@ p {
 .plofile {
 	background: url(img/bg-3.jpg);
 	background-size: cover;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .motto-second {
 	background-color: rgba(0,36,59,1);
@@ -81,6 +87,7 @@ body {
   padding: 0;
   
 }
+
 
 #contact {
   width: 100%;
