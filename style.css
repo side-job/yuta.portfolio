@@ -1,12 +1,13 @@
 @charset="utf-8";
 
 .cover {
-	 background: url(img/bg2.jpg);
-   background-size: cover;
-    background-position: center center;
-    padding-bottom: 16rem;
+	  background: url(img/bg2.jpg) no-repeat center center;
+    background-size: cover;
+    /*padding-bottom: 16rem;*/
     padding-top: 16rem;
-    height: auto;
+   /* background-size:contain;*/
+    height: 700px;
+   
 }
 
 .navbar-expand-lg {
@@ -45,7 +46,7 @@ p {
 	list-style-type: none;
 }
 .skill {
-	background: url(img/bg-9.jpg);
+	background: url(img/bg-16.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
