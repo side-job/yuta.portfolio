@@ -4,11 +4,12 @@
 	background: url(img/bg2.jpg);
 	background-size: cover;
     background-position: center center;
-  
+    background-repeat: no-repeat;
+    
     padding-bottom: 16rem;
     padding-top: 16rem;
-    height: auto;
 }
+
 .navbar-expand-lg {
   position: fixed;
   z-index: 10;
@@ -47,6 +48,7 @@ p {
 .skill {
 	background: url(img/bg-9.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: auto;
  }
@@ -55,9 +57,10 @@ p {
 	width: 100%;
 }
 .plofile {
-	background: url(img/bg-3.jpg);
+	background: url(img/bg-17.jpg);
 	background-size: cover;
-   
+   background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .motto-second {
 	background-color: rgba(0,36,59,1);
