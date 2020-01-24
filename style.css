@@ -4,7 +4,7 @@
 	background: url(img/bg2.jpg);
 	background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+  
     padding-bottom: 16rem;
     padding-top: 16rem;
     height: auto;
@@ -57,7 +57,7 @@ p {
 .plofile {
 	background: url(img/bg-3.jpg);
 	background-size: cover;
-    background-attachment: fixed;
+   
 }
 .motto-second {
 	background-color: rgba(0,36,59,1);
